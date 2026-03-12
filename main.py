@@ -4,8 +4,6 @@ import time
 import yfinance as yf
 
 def get_nifty50_data():
-    nifty50 = yf.download("^NSEI", period="10d", interval="1h")
-    nifty50.to_csv("nifty50_data.csv")
+    nifty50 = yf.download("^NSEI", period="100d", interval="1h")
     return nifty50 
 
-print(get_nifty50_data())

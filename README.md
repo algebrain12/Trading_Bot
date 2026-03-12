@@ -9,3 +9,6 @@ yfinance
 pandas
 numpy
 matplotlib
+
+
+Currently implemented a really bad model, can someone improve that later on?
